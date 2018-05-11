@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+    <children>
+        <Label alignment="CENTER" layoutX="10.0" layoutY="34.0" prefHeight="43.0" prefWidth="582.0" text="Validare automata a structurii rapoartelor XML" textAlignment="CENTER" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="34.0">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Button layoutX="41.0" layoutY="134.0" mnemonicParsing="false" onAction="#xmlUzual" text="Valideaza XML activitate uzuala" AnchorPane.leftAnchor="41.0" />
+        <Button layoutX="41.0" layoutY="200.0" mnemonicParsing="false" onAction="#xmlPR" text="Valideaza XML perioada de raportare" AnchorPane.leftAnchor="41.0" />
+        <Button layoutX="41.0" layoutY="261.0" mnemonicParsing="false" onAction="#xmlSV" text="Valideaza XML schimb valutar" AnchorPane.leftAnchor="41.0" />
+        <Button layoutX="41.0" layoutY="325.0" mnemonicParsing="false" onAction="#xmlTaxi" text="Valideaza XML taximetrie" AnchorPane.leftAnchor="41.0" />
+      <Label layoutX="270.0" layoutY="139.0" prefHeight="17.0" prefWidth="497.0" fx:id="xmlUzualLabel" />
+      <Label layoutX="297.0" layoutY="205.0" prefHeight="17.0" prefWidth="467.0" fx:id="xmlPRLabel" />
+      <Label layoutX="253.0" layoutY="266.0" prefHeight="17.0" prefWidth="505.0" fx:id="xmlSVLabel" />
+      <Label layoutX="226.0" layoutY="330.0" prefHeight="17.0" prefWidth="540.0" fx:id="xmlTaxiLabel" />
+    </children>
+
+</AnchorPane>
